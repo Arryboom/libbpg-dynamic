@@ -1,6 +1,6 @@
 # libbpg-dynamic
 Dynamic version of libbpg
-
+Sources for this project: http://bellard.org/bpg/
 ### Build
 
     make
