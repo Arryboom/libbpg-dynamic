@@ -59,7 +59,7 @@ BPGENC_LIBS:=
 
 ifdef CONFIG_WIN32
 
-BPGDEC_LIBS:=-lpng -lz
+BPGDEC_LIBS:=
 
 else
 
@@ -70,7 +70,7 @@ LIBS:=-lrt
 endif # !CONFIG_APPLE 
 LIBS+=-lm -lpthread
 
-BPGDEC_LIBS:=-lpng $(LIBS)
+BPGDEC_LIBS:=$(LIBS)
 
 endif #!CONFIG_WIN32
 
